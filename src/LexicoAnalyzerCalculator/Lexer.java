@@ -1,4 +1,5 @@
 package LexicoAnalyzerCalculator;
 
-public class LexicoAnalyzer {
+public class Lexer {
+
 }

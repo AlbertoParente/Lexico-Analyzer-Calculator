@@ -1,4 +1,4 @@
-package LexicoAnalyzerCalculator;
+package com.lexicoanalyzercalculator;
 
 public enum Token {
 	sum, 
