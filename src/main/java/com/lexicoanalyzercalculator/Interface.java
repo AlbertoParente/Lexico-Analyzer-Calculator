@@ -1,5 +1,5 @@
 package com.lexicoanalyzercalculator;
 
-public class Lexer {
+public class Interface {
 
 }
