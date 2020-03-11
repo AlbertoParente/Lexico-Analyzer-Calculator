@@ -45,22 +45,22 @@ public class LexicoAnalyzer {
         }
     }
 
-    public void verificarValor(String valor){
-        switch (valor){
+    public void checkValue(String value){
+        switch (value){
             case "+":
-                token.setValor("soma");
+                token.setValue("soma");
                 break;
             case "-":
-                token.setValor("subtracao");
+                token.setValue("subtracao");
                 break;
             case "/":
-                token.setValor("divisao");
+                token.setValue("divisao");
                 break;
             case "*":
-                token.setValor("multiplicacao");
+                token.setValue("multiplicacao");
                 break;
             case "**":
-                token.setValor("exponenciacao");
+                token.setValue("exponenciacao");
                 break;
         }
     }

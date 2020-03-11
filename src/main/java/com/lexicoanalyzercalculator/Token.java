@@ -5,14 +5,14 @@ import java.util.Arrays;
 
 public class Token {
     private String lexama;
-    private String tipo;
-    private String valor;
-    private ArrayList<String> operador = new ArrayList<>();
-    private ArrayList<String> pontuacao = new ArrayList<>();
+    private String type;
+    private String value;
+    private ArrayList<String> operator = new ArrayList<>();
+    private ArrayList<String> punctuation = new ArrayList<>();
 
     public Token(){
-        operador.addAll(Arrays.asList("+","-", "*", "**", "/"));
-        pontuacao.addAll(Arrays.asList("(",")"));
+    	operator.addAll(Arrays.asList("+","-", "*", "**", "/"));
+        punctuation.addAll(Arrays.asList("(",")"));
     }
 
     public String getLexama() {
@@ -23,36 +23,36 @@ public class Token {
         this.lexama = lexama;
     }
 
-    public String getTipo() {
-        return tipo;
+    public String getType() {
+        return type;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setType(String type) {
+        this.type = type;
     }
 
-    public String getValor() {
-        return valor;
+    public String getValue() {
+        return value;
     }
 
-    public void setValor(String valor) {
-        this.valor = valor;
+    public void setValue(String value) {
+        this.value = value;
     }
 
-    public ArrayList<String> getOperador() {
-        return operador;
+    public ArrayList<String> getOperator() {
+        return operator;
     }
 
-    public void setOperador(ArrayList<String> operador) {
-        this.operador = operador;
+    public void setOperator(ArrayList<String> operator) {
+        this.operator = operator;
     }
 
-    public ArrayList<String> getPontuacao() {
-        return pontuacao;
+    public ArrayList<String> getPunctuation() {
+        return punctuation;
     }
 
-    public void setPontuacao(ArrayList<String> pontuacao) {
-        this.pontuacao = pontuacao;
+    public void setPunctuation(ArrayList<String> punctuation) {
+        this.punctuation = punctuation;
     }
 
 }
